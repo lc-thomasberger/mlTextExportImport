@@ -44,7 +44,8 @@
                   "required": false,
                   "title": "Prompt Title",
                   "inputType": "Text",
-                  "validators": []
+                  "validators": [],
+                  "translatable": true
                 },
                 "body": {
                   "type": "string",
@@ -52,7 +53,8 @@
                   "required": false,
                   "title": "Prompt Message",
                   "inputType": "Text",
-                  "validators": []
+                  "validators": [],
+                  "translatable": true
                 },
                 "_buttons": {
                   "type":"object",
@@ -63,14 +65,16 @@
                       "default": "Yes",
                       "title": "",
                       "inputType": "Text",
-                      "validators": []
+                      "validators": [],
+                      "translatable": true
                     },
                     "no": {
                       "type": "string",
                       "default": "No",
                       "title": "",
                       "inputType": "Text",
-                      "validators": []
+                      "validators": [],
+                      "translatable": true
                     }
                   }
                 }
