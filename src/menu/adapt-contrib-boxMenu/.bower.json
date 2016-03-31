@@ -1,0 +1,27 @@
+{
+  "name": "adapt-contrib-boxMenu",
+  "version": "2.0.3",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-boxmenu",
+  "issues": "https://adaptlearning.atlassian.net/secure/CreateIssueDetails!init.jspa?pid=10100&issuetype=1&priority=6&components=10514",
+  "displayName": "Box menu",
+  "menu": "boxmenu",
+  "description": "A core bundled menu",
+  "main": "js/adapt-contrib-boxmenu.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-menu"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_boxMenu",
+  "_release": "2.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.3",
+    "commit": "3d302f7ded037634db21da4bea2ed5c1064868a0"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-contrib-boxmenu.git",
+  "_target": "~2.0.3",
+  "_originalSource": "adapt-contrib-boxMenu",
+  "_direct": true
+}

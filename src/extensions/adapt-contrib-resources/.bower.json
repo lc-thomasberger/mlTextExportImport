@@ -1,0 +1,27 @@
+{
+  "name": "adapt-contrib-resources",
+  "version": "2.0.1",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-resources",
+  "issues": "https://adaptlearning.atlassian.net/secure/CreateIssueDetails!init.jspa?pid=10100&issuetype=1&priority=6&components=10522",
+  "displayName": "Resources",
+  "extension": "resources",
+  "description": "An extension to allow learners to view resources",
+  "main": "/js/adapt-contrib-resources.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_resources",
+  "_release": "2.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.1",
+    "commit": "dea3714d3f361789e065df52906e5ede9410ed9d"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-contrib-resources.git",
+  "_target": "~2.0.1",
+  "_originalSource": "adapt-contrib-resources",
+  "_direct": true
+}

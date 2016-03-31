@@ -1,0 +1,26 @@
+{
+  "name": "adapt-contrib-slider",
+  "version": "2.0.3",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-slider",
+  "issues": "https://adaptlearning.atlassian.net/secure/CreateIssueDetails!init.jspa?pid=10100&issuetype=1&priority=6&components=10509",
+  "displayName": "Slider",
+  "component": "slider",
+  "description": "A question component that allows the learner to position a slider on scale",
+  "main": "/js/adapt-contrib-slider.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "2.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.3",
+    "commit": "168d74d1b6776cd24b361aa6049f6fb3ebc02c0e"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-contrib-slider.git",
+  "_target": "~2.0.3",
+  "_originalSource": "adapt-contrib-slider",
+  "_direct": true
+}
