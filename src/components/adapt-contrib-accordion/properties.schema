@@ -9,7 +9,8 @@
       "required": true,
       "default": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.",
       "inputType": "Text",
-      "validators": []
+      "validators": [],
+      "translatable": true
     }
   },
   "properties":{
@@ -26,7 +27,8 @@
       "default": "",
       "inputType": "Text",
       "validators": [],
-      "help": "This is the instruction text"
+      "help": "This is the instruction text",
+      "translatable": true
     },
     "_items": {
       "type": "array",
@@ -43,7 +45,8 @@
             "title": "Item Title",
             "default": "",
             "validators": ["required"],
-            "help": "This is the item title"
+            "help": "This is the item title",
+            "translatable": true
           },
           "body": {
             "type": "string",
@@ -52,7 +55,8 @@
             "title": "Item Body",
             "default": "",
             "validators": ["required"],
-            "help": "This is the item body text that is hidden until the item title is clicked on"
+            "help": "This is the item body text that is hidden until the item title is clicked on",
+            "translatable": true
           },
           "_graphic": {
             "type": "object",
@@ -65,7 +69,8 @@
                 "default": "",
                 "inputType": "Text",
                 "validators": [],
-                "help": "The alternative text for this image"
+                "help": "The alternative text for this image",
+                "translatable": true
               },
               "src": {
                 "type": "string",
