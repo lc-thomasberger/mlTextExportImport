@@ -1,4 +1,38 @@
 {
+    "multilang": {
+        "masterLanguage": "en",
+        "csvDelimiter": ";",
+        "files": {
+          "de": [
+            "articles_export_de.csv",
+            "blocks_export_de.csv",
+            "components_export_de.csv",
+            "contentObjects_export_de.csv",
+            "course_export_de.csv"
+          ],
+          "en": [
+            "articles_export_en.csv",
+            "blocks_export_en.csv",
+            "components_export_en.csv",
+            "contentObjects_export_en.csv",
+            "course_export_en.csv"
+          ],
+          "fr": [
+            "articles_export_fr.csv",
+            "blocks_export_fr.csv",
+            "componfrts_export_fr.csv",
+            "contfrtObjects_export_fr.csv",
+            "course_export_fr.csv"
+          ],
+          "it": [
+            "articles_export_it.csv",
+            "blocks_export_it.csv",
+            "componitts_export_it.csv",
+            "contittObjects_export_it.csv",
+            "course_export_it.csv"
+          ]
+        }
+    },
     "dependencies": {
         "adapt-contrib-vanilla": "*",
         "adapt-contrib-text": "*",
