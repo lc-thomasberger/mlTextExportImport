@@ -30,6 +30,21 @@
       "help": "This is the instruction text",
       "translatable": true
     },
+    "_answers": {
+      "type":"array",
+      "required":false,
+      "title": "Answers",
+      "items": {
+        "type": "string",
+        "required": true,
+        "default":"",
+        "title": "Item",
+        "inputType": "Text",
+        "validators": ["required"],
+        "help": "",
+        "translatable": true
+      }
+    },
     "_attempts": {
       "type":"number",
       "required":true,

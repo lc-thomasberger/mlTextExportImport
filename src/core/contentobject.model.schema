@@ -28,6 +28,13 @@
       "validators": [],
       "translatable": true
     },
+    "pageBody":{
+      "type":"string",
+      "default" : "",
+      "inputType":"TextArea",
+      "validators": [],
+      "translatable": true
+    },
     "_graphic": {
       "type": "object",
       "title": "",
