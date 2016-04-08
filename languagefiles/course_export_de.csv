@@ -1,0 +1,74 @@
+course/course/title/;de: Adapt Version 2.0 demonstration
+course/course/displayTitle/;de: Adapt Version 2.0 demonstration
+course/course/body/;de: Welcome to the demonstration build for Version 2.0 of the Adapt framework.<br><br>We’ve added some major new items of functionality to Adapt for this release, most notably accessibility to WAI level AA, Right to Left language support and greatly improved assessments. If you’d like to find out more about this, along with the the other improvements we’ve made then please read the release notes (Link to follow for demo).               
+course/course/_buttons/_submit/buttonText/;de: Submit
+course/course/_buttons/_submit/ariaLabel/;de: Submit your answer by clicking here.
+course/course/_buttons/_reset/buttonText/;de: Reset
+course/course/_buttons/_reset/ariaLabel/;de: Reset the question by clicking here.
+course/course/_buttons/_showCorrectAnswer/buttonText/;de: Correct answer
+course/course/_buttons/_showCorrectAnswer/ariaLabel/;de: Show the correct answer by clicking here.
+course/course/_buttons/_hideCorrectAnswer/buttonText/;de: My answer
+course/course/_buttons/_hideCorrectAnswer/ariaLabel/;de: Show the answer you gave by clicking here.
+course/course/_buttons/_showFeedback/buttonText/;de: Show feedback
+course/course/_buttons/_showFeedback/ariaLabel/;de: View the question feedback again by clicking here.
+course/course/_buttons/remainingAttemptsText/;de: attempts remaining
+course/course/_buttons/remainingAttemptText/;de: final attempt
+course/course/_buttons/disabledAriaLabel/;de: This button is disabled at the moment.
+course/course/_globals/_components/_accordion/ariaRegion/;de: This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.
+course/course/_globals/_components/_gmcq/ariaRegion/;de: This component is a graphical multiple choice question. Once you have selected an option select the submit button below.
+course/course/_globals/_components/_matching/ariaRegion/;de: This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button.
+course/course/_globals/_components/_mcq/ariaRegion/;de: This component is a multiple choice question. Once you have selected an option select the submit button below
+course/course/_globals/_components/_media/ariaRegion/;de: This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.
+course/course/_globals/_components/_narrative/ariaRegion/;de: This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.
+course/course/_globals/_components/_slider/ariaRegion/;de: This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below.
+course/course/_globals/_extensions/_pageLevelProgress/pageLevelProgress/;de: Page sections
+course/course/_globals/_extensions/_pageLevelProgress/pageLevelProgressEnd/;de: You have reached the end of the list of page sections.
+course/course/_globals/_extensions/_pageLevelProgress/pageLevelProgressIndicatorBar/;de: Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed 
+course/course/_globals/_extensions/_pageLevelProgress/pageLevelProgressMenuBar/;de: You have completed 
+course/course/_globals/_extensions/_pageLevelProgress/optionalContent/;de: Optional Content
+course/course/_globals/_accessibility/_accessibilityToggleTextOn/;de: Turn accessibility on?
+course/course/_globals/_accessibility/_accessibilityToggleTextOff/;de: Turn accessibility off?
+course/course/_globals/_accessibility/_accessibilityInstructions/touch/;de: Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.
+course/course/_globals/_accessibility/_accessibilityInstructions/notouch/;de: Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.
+course/course/_globals/_accessibility/_accessibilityInstructions/ipad/;de: Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select.
+course/course/_globals/_accessibility/_ariaLabels/navigation/;de: Course navigation bar
+course/course/_globals/_accessibility/_ariaLabels/menuLoaded/;de: Menu Loaded.
+course/course/_globals/_accessibility/_ariaLabels/menu/;de: Menu
+course/course/_globals/_accessibility/_ariaLabels/page/;de: Page
+course/course/_globals/_accessibility/_ariaLabels/pageLoaded/;de: Page Loaded.
+course/course/_globals/_accessibility/_ariaLabels/previous/;de: Back
+course/course/_globals/_accessibility/_ariaLabels/navigationBack/;de: Navigate back
+course/course/_globals/_accessibility/_ariaLabels/navigationDrawer/;de: Open course resources.
+course/course/_globals/_accessibility/_ariaLabels/closeResources/;de: Close resources
+course/course/_globals/_accessibility/_ariaLabels/drawerBack/;de: Back to drawer
+course/course/_globals/_accessibility/_ariaLabels/drawer/;de: Top of side drawer
+course/course/_globals/_accessibility/_ariaLabels/closePopup/;de: Close popup
+course/course/_globals/_accessibility/_ariaLabels/next/;de: Next
+course/course/_globals/_accessibility/_ariaLabels/done/;de: Done
+course/course/_globals/_accessibility/_ariaLabels/complete/;de: Completed
+course/course/_globals/_accessibility/_ariaLabels/incomplete/;de: Incomplete
+course/course/_globals/_accessibility/_ariaLabels/correct/;de: Correct
+course/course/_globals/_accessibility/_ariaLabels/locked/;de: Locked
+course/course/_globals/_accessibility/_ariaLabels/accessibilityToggleButton/;de: By selecting this button you can set whether accessibility is turned on or off
+course/course/_globals/_accessibility/_ariaLabels/feedbackPopUp/;de: Popup opened.
+course/course/_globals/_accessibility/_ariaLabels/menuBack/;de: Back to menu
+course/course/_resources/title/;de: Resources
+course/course/_resources/description/;de: View resources for this course by clicking here.
+course/course/_resources/_filterButtons/all/;de: All
+course/course/_resources/_filterButtons/document/;de: Document
+course/course/_resources/_filterButtons/media/;de: Media
+course/course/_resources/_filterButtons/link/;de: Link
+course/course/_resources/_filterAria/allAria/;de: View all resources
+course/course/_resources/_filterAria/documentAria/;de: View document resources
+course/course/_resources/_filterAria/mediaAria/;de: View media resources
+course/course/_resources/_filterAria/linkAria/;de: View resource links
+course/course/_resources/_resourcesItems/0/title/;de: Vanilla Theme Swatch
+course/course/_resources/_resourcesItems/0/description/;de: See the swatch for the default vanilla by clicking here.
+course/course/_resources/_resourcesItems/1/title/;de: Adapt Learning YouTube Channel
+course/course/_resources/_resourcesItems/1/description/;de: Fancy catching up on some Adapt material? Click here.
+course/course/_resources/_resourcesItems/2/title/;de: Community Site
+course/course/_resources/_resourcesItems/2/description/;de: View our community site by clicking here.
+course/course/_bookmarking/title/;de: Bookmarking
+course/course/_bookmarking/body/;de: Would you like to continue where you left off?
+course/course/_bookmarking/_buttons/yes/;de: Yes
+course/course/_bookmarking/_buttons/no/;de: No
