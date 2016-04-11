@@ -42,3 +42,7 @@ You should now see a course with content prefixed with "de:"
   add this to the master course. when export to a target language only compoents for this language will be used
 - use external module to generate csv-files?
 - test [grunt-xliff module](https://www.npmjs.com/package/grunt-xliff)
+- add support for assets (images, audios)
+  - add pattern (images/image-1-[:lang:].jpg) eg. images/image-1-en.jpg, images/image-1-de.jpg
+  - check if image for language is in assets folder of master course
+  - copy to target course and relink or use master course version
