@@ -1,0 +1,2168 @@
+[
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/title/",
+        "value": "Adapt Version 2.0 demonstration"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/displayTitle/",
+        "value": "Adapt Version 2.0 demonstration"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/body/",
+        "value": "Welcome to the demonstration build for Version 2.0 of the Adapt framework.<br><br>We’ve added some major new items of functionality to Adapt for this release, most notably accessibility to WAI level AA, Right to Left language support and greatly improved assessments. If you’d like to find out more about this, along with the the other improvements we’ve made then please read the release notes (Link to follow for demo).               "
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_submit/buttonText/",
+        "value": "Submit"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_submit/ariaLabel/",
+        "value": "Submit your answer by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_reset/buttonText/",
+        "value": "Reset"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_reset/ariaLabel/",
+        "value": "Reset the question by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_showCorrectAnswer/buttonText/",
+        "value": "Correct answer"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_showCorrectAnswer/ariaLabel/",
+        "value": "Show the correct answer by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_hideCorrectAnswer/buttonText/",
+        "value": "My answer"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_hideCorrectAnswer/ariaLabel/",
+        "value": "Show the answer you gave by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_showFeedback/buttonText/",
+        "value": "Show feedback"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/_showFeedback/ariaLabel/",
+        "value": "View the question feedback again by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/remainingAttemptsText/",
+        "value": "attempts remaining"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/remainingAttemptText/",
+        "value": "final attempt"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_buttons/disabledAriaLabel/",
+        "value": "This button is disabled at the moment."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_accordion/ariaRegion/",
+        "value": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_gmcq/ariaRegion/",
+        "value": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_matching/ariaRegion/",
+        "value": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_mcq/ariaRegion/",
+        "value": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_media/ariaRegion/",
+        "value": "This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_narrative/ariaRegion/",
+        "value": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_components/_slider/ariaRegion/",
+        "value": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_extensions/_pageLevelProgress/pageLevelProgress/",
+        "value": "Page sections"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_extensions/_pageLevelProgress/pageLevelProgressEnd/",
+        "value": "You have reached the end of the list of page sections."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_extensions/_pageLevelProgress/pageLevelProgressIndicatorBar/",
+        "value": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed "
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_extensions/_pageLevelProgress/pageLevelProgressMenuBar/",
+        "value": "You have completed "
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_extensions/_pageLevelProgress/optionalContent/",
+        "value": "Optional Content"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_accessibilityToggleTextOn/",
+        "value": "Turn accessibility on?"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_accessibilityToggleTextOff/",
+        "value": "Turn accessibility off?"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_accessibilityInstructions/touch/",
+        "value": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_accessibilityInstructions/notouch/",
+        "value": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_accessibilityInstructions/ipad/",
+        "value": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/navigation/",
+        "value": "Course navigation bar"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/menuLoaded/",
+        "value": "Menu Loaded."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/menu/",
+        "value": "Menu"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/page/",
+        "value": "Page"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/pageLoaded/",
+        "value": "Page Loaded."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/previous/",
+        "value": "Back"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/navigationBack/",
+        "value": "Navigate back"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/navigationDrawer/",
+        "value": "Open course resources."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/closeResources/",
+        "value": "Close resources"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/drawerBack/",
+        "value": "Back to drawer"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/drawer/",
+        "value": "Top of side drawer"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/closePopup/",
+        "value": "Close popup"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/next/",
+        "value": "Next"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/done/",
+        "value": "Done"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/complete/",
+        "value": "Completed"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/incomplete/",
+        "value": "Incomplete"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/correct/",
+        "value": "Correct"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/locked/",
+        "value": "Locked"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/accessibilityToggleButton/",
+        "value": "By selecting this button you can set whether accessibility is turned on or off"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/feedbackPopUp/",
+        "value": "Popup opened."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_globals/_accessibility/_ariaLabels/menuBack/",
+        "value": "Back to menu"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/title/",
+        "value": "Resources"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/description/",
+        "value": "View resources for this course by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterButtons/all/",
+        "value": "All"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterButtons/document/",
+        "value": "Document"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterButtons/media/",
+        "value": "Media"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterButtons/link/",
+        "value": "Link"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterAria/allAria/",
+        "value": "View all resources"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterAria/documentAria/",
+        "value": "View document resources"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterAria/mediaAria/",
+        "value": "View media resources"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_filterAria/linkAria/",
+        "value": "View resource links"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_resourcesItems/0/title/",
+        "value": "Vanilla Theme Swatch"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_resourcesItems/0/description/",
+        "value": "See the swatch for the default vanilla by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_resourcesItems/1/title/",
+        "value": "Adapt Learning YouTube Channel"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_resourcesItems/1/description/",
+        "value": "Fancy catching up on some Adapt material? Click here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_resourcesItems/2/title/",
+        "value": "Community Site"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_resources/_resourcesItems/2/description/",
+        "value": "View our community site by clicking here."
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_bookmarking/title/",
+        "value": "Bookmarking"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_bookmarking/body/",
+        "value": "Would you like to continue where you left off?"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_bookmarking/_buttons/yes/",
+        "value": "Yes"
+    },
+    {
+        "file": "course",
+        "id": "course",
+        "path": "/_bookmarking/_buttons/no/",
+        "value": "No"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/title/",
+        "value": "Presentation Components"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/displayTitle/",
+        "value": "Presentation Components"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/pageBody/",
+        "value": "<strong>Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.</strong>"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/body/",
+        "value": "Find out what presentation components are available within the core bundle and how you might consider using them within your courses. "
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/linkText/",
+        "value": "View"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-05",
+        "path": "/duration/",
+        "value": "2 mins"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/title/",
+        "value": "Question Components"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/displayTitle/",
+        "value": "Question Components"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/pageBody/",
+        "value": "We can’t easily measure whether learners are meeting the intended course objectives, provide guidance and feedback if they’re not or give them opportunities to practice and rehearse in a ‘safe environment’ without a range of question components.<br><br>Discover what question components are available within the framework, along with some tips on how to use them.<br><br><strong>Scroll down to see what question components are available as part of the Version 2.0 core bundle.</strong>"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/body/",
+        "value": "Discover what question components are available within the framework, along with some tips on how to use them."
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/linkText/",
+        "value": "View"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-10",
+        "path": "/duration/",
+        "value": "2 mins"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/title/",
+        "value": "Adapt Assessment"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/displayTitle/",
+        "value": "Adapt Assessment"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/pageBody/",
+        "value": "We’ve put together a very short quiz to demonstrate the new assessment functionality. In this simple example there are two banks that each contain three questions with two being taken from each bank at random. The order in which the questions are presented is then also randomised, as is the order of each questions options.<br><br><strong>Think you can get a perfect score? Scroll down to attempt the first question.</strong>"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/body/",
+        "value": "Find out more about the new assessment functionality in V2.0, including randomised banks and an improved results feature."
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/linkText/",
+        "value": "View"
+    },
+    {
+        "file": "contentObjects",
+        "id": "co-15",
+        "path": "/duration/",
+        "value": "2 mins"
+    },
+    {
+        "file": "articles",
+        "id": "a-05",
+        "path": "/title/",
+        "value": "a-05"
+    },
+    {
+        "file": "articles",
+        "id": "a-10",
+        "path": "/title/",
+        "value": "a-10"
+    },
+    {
+        "file": "articles",
+        "id": "a-15",
+        "path": "/title/",
+        "value": "a-15"
+    },
+    {
+        "file": "articles",
+        "id": "a-20",
+        "path": "/title/",
+        "value": "a-20"
+    },
+    {
+        "file": "blocks",
+        "id": "b-05",
+        "path": "/title/",
+        "value": "b-05"
+    },
+    {
+        "file": "blocks",
+        "id": "b-10",
+        "path": "/title/",
+        "value": "b-10"
+    },
+    {
+        "file": "blocks",
+        "id": "b-15",
+        "path": "/title/",
+        "value": "b-15"
+    },
+    {
+        "file": "blocks",
+        "id": "b-20",
+        "path": "/title/",
+        "value": "b-20"
+    },
+    {
+        "file": "blocks",
+        "id": "b-25",
+        "path": "/title/",
+        "value": "b-25"
+    },
+    {
+        "file": "blocks",
+        "id": "b-30",
+        "path": "/title/",
+        "value": "b-30"
+    },
+    {
+        "file": "blocks",
+        "id": "b-35",
+        "path": "/title/",
+        "value": "b-35"
+    },
+    {
+        "file": "blocks",
+        "id": "b-40",
+        "path": "/title/",
+        "value": "b-40"
+    },
+    {
+        "file": "blocks",
+        "id": "b-45",
+        "path": "/title/",
+        "value": "b-45"
+    },
+    {
+        "file": "blocks",
+        "id": "b-50",
+        "path": "/title/",
+        "value": "b-50"
+    },
+    {
+        "file": "blocks",
+        "id": "b-55",
+        "path": "/title/",
+        "value": "b-55"
+    },
+    {
+        "file": "blocks",
+        "id": "b-60",
+        "path": "/title/",
+        "value": "b-60"
+    },
+    {
+        "file": "blocks",
+        "id": "b-70",
+        "path": "/title/",
+        "value": "b-70"
+    },
+    {
+        "file": "blocks",
+        "id": "b-70",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-75",
+        "path": "/title/",
+        "value": "b-75"
+    },
+    {
+        "file": "blocks",
+        "id": "b-75",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-80",
+        "path": "/title/",
+        "value": "b-80"
+    },
+    {
+        "file": "blocks",
+        "id": "b-80",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-85",
+        "path": "/title/",
+        "value": "b-85"
+    },
+    {
+        "file": "blocks",
+        "id": "b-85",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-90",
+        "path": "/title/",
+        "value": "b-90"
+    },
+    {
+        "file": "blocks",
+        "id": "b-90",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-95",
+        "path": "/title/",
+        "value": "b-95"
+    },
+    {
+        "file": "blocks",
+        "id": "b-95",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-100",
+        "path": "/title/",
+        "value": "b-100"
+    },
+    {
+        "file": "blocks",
+        "id": "b-100",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-105",
+        "path": "/title/",
+        "value": "b-105"
+    },
+    {
+        "file": "blocks",
+        "id": "b-105",
+        "path": "/_trickle/_button/text/",
+        "value": "Continue"
+    },
+    {
+        "file": "blocks",
+        "id": "b-110",
+        "path": "/title/",
+        "value": "b-110"
+    },
+    {
+        "file": "components",
+        "id": "c-05",
+        "path": "/title/",
+        "value": "Introduction"
+    },
+    {
+        "file": "components",
+        "id": "c-05",
+        "path": "/body/",
+        "value": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners."
+    },
+    {
+        "file": "components",
+        "id": "c-05",
+        "path": "/instruction/",
+        "value": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle."
+    },
+    {
+        "file": "components",
+        "id": "c-10",
+        "path": "/title/",
+        "value": "c-10"
+    },
+    {
+        "file": "components",
+        "id": "c-10",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-15",
+        "path": "/title/",
+        "value": "Text components"
+    },
+    {
+        "file": "components",
+        "id": "c-15",
+        "path": "/displayTitle/",
+        "value": "Text components"
+    },
+    {
+        "file": "components",
+        "id": "c-15",
+        "path": "/body/",
+        "value": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned."
+    },
+    {
+        "file": "components",
+        "id": "c-20",
+        "path": "/title/",
+        "value": "c-20"
+    },
+    {
+        "file": "components",
+        "id": "c-25",
+        "path": "/title/",
+        "value": "Graphic"
+    },
+    {
+        "file": "components",
+        "id": "c-25",
+        "path": "/displayTitle/",
+        "value": "Graphic"
+    },
+    {
+        "file": "components",
+        "id": "c-25",
+        "path": "/body/",
+        "value": "This is the graphic component body. You can introduce your graphic or you may just want to let the graphics do the talking.<br><br>Component can either be single or spanned."
+    },
+    {
+        "file": "components",
+        "id": "c-25",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/title/",
+        "value": "Narrative"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/displayTitle/",
+        "value": "Narrative"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/body/",
+        "value": "The narrative component lets you scroll through a series of images each with some accompanying text.<br><br>This component is always spanned."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/instruction/",
+        "value": "Select the arrow to find out more."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/mobileInstruction/",
+        "value": "Select the arrow followed by the plus icon to find out more."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/0/title/",
+        "value": "Narrative item 1"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/0/body/",
+        "value": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning about to follow, to illustrate real world application of the learning or to show the impact on people when the learning hasn’t been applied correctly."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/0/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/0/strapline/",
+        "value": "Narrative item 1"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/1/title/",
+        "value": "Narrative item 2"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/1/body/",
+        "value": "Narratives can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/1/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/1/strapline/",
+        "value": "Narrative item 2"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/2/title/",
+        "value": "Narrative item 3"
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/2/body/",
+        "value": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/2/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-30",
+        "path": "/_items/2/strapline/",
+        "value": "Narrative item 3"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/title/",
+        "value": "Hot graphic"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/displayTitle/",
+        "value": "Hot graphic"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/body/",
+        "value": "You can add interactivity to an image by using the <strong>hot graphic</strong>. This component allows you to position icons over an image. When an icon is selected, content associated with its corresponding location is displayed in a window over the image. This component will fall back to a <strong>narrative</strong> when viewed on mobile.<br><br>This component is always spanned."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/instruction/",
+        "value": "Select the icons to find out more."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/0/title/",
+        "value": "Hot graphic item 1"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/0/body/",
+        "value": "This is display text 1 which we have associated with the tablet image on the desktop."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/0/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/0/strapline/",
+        "value": "Hot graphic item 1"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/1/title/",
+        "value": "Hot graphic item 2"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/1/body/",
+        "value": "This is display text 2 which we have linked to the smartphone image."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/1/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/1/strapline/",
+        "value": "Hot graphic item 2"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/2/title/",
+        "value": "Hot graphic item 3"
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/2/body/",
+        "value": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/2/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-35",
+        "path": "/_items/2/strapline/",
+        "value": "Hot graphic item 3"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/title/",
+        "value": "Media"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/displayTitle/",
+        "value": "Media"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/body/",
+        "value": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or just let audio to literally do the talking. This is when the media component comes to the fore.<br><br>Component can be either single or spanned."
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/instruction/",
+        "value": "Select the play button to start the video."
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/_transcript/inlineTranscriptButton/",
+        "value": "Transcript"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/_transcript/inlineTranscriptCloseButton/",
+        "value": "Close Transcript"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/_transcript/inlineTranscriptBody/",
+        "value": "Transcript body text should go here"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/_transcript/transcriptLinkButton/",
+        "value": "Transcript"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/title/",
+        "value": "Accordion"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/displayTitle/",
+        "value": "Accordion"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/body/",
+        "value": "You can use the <strong>accordion</strong> component to present learners with a series of headings, which once selected, expand to reveal associated text. Select each of the headings below to find out more about how accordions can be used.<br><br>These components can be either single or spanned. If spanned they can also contain a graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/instruction/",
+        "value": "Select the headings to find out more."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/0/title/",
+        "value": "Lists"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/0/body/",
+        "value": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/0/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/1/title/",
+        "value": "Steps in a process"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/1/body/",
+        "value": "This is display text 2 and now we’re discussing how accordions can be great at presenting a process.<br><br>The headings can be used to present the high level stages in the process which once selected, provide a more extensive explanation of what happens at that specific point."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/1/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/2/title/",
+        "value": "Recaps"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/2/body/",
+        "value": "This is display text 3 and we’re now talking about using accordions to provide the learner with a summary.<br><br>Each accordion item corresponds to a key piece of learning presented on the page. When this item is selected a short summary of the learning point is provided."
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/2/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/title/",
+        "value": "Multiple Choice Question"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/displayTitle/",
+        "value": "Multiple Choice Question"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/body/",
+        "value": "In what year was the first recorded instance of a large scale assessment that consists solely of multiple choice questions?"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/instruction/",
+        "value": "Choose one or more options and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/_items/0/text/",
+        "value": "1917"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/_items/1/text/",
+        "value": "1888"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/_items/2/text/",
+        "value": "1953"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/_items/3/text/",
+        "value": "1977"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/_feedback/correct/",
+        "value": "Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-60",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><em>Component facts: <strong>Multiple Choice Questions (or MCQs)</strong> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-62",
+        "path": "/title/",
+        "value": "c-62"
+    },
+    {
+        "file": "components",
+        "id": "c-62",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/title/",
+        "value": "Graphical Multiple Choice Question"
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/displayTitle/",
+        "value": "Graphical Multiple Choice Question"
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/body/",
+        "value": "The graphical multiple choice question is an alternative to the standard MCQ, and allows you to ask a question and present the options as graphics (with accompanying captions). This component is always spanned."
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/instruction/",
+        "value": "Choose option 2 and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_items/0/text/",
+        "value": "Option 1"
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_items/0/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_items/1/text/",
+        "value": "Option 2"
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_items/1/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_items/2/text/",
+        "value": "Option 3"
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_items/2/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_feedback/correct/",
+        "value": "Correct feedback text.<br><br>That’s correct. <strong>Option 2</strong> is what we were looking for!"
+    },
+    {
+        "file": "components",
+        "id": "c-65",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "Incorrect feedback text.<br><br>Sorry, that’s not right. In fact <strong>Option 2</strong> is what we were looking for (the clue was in the instruction text!)."
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/title/",
+        "value": "Text Input"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/displayTitle/",
+        "value": "Text Input"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/body/",
+        "value": "Can you name one of the three companies that established Adapt as a community led Open Source project?"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/instruction/",
+        "value": "Input your answers and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_answers/0/0/",
+        "value": "City & Guilds Kineo"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_answers/0/1/",
+        "value": "Kineo"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_answers/1/0/",
+        "value": "Learning Pool"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_answers/2/0/",
+        "value": "Sponge"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_items/0/prefix/",
+        "value": "prefix"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_items/0/placeholder/",
+        "value": "Enter answer here"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_items/0/suffix/",
+        "value": "suffix"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_items/1/placeholder/",
+        "value": "Enter answer here"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_items/2/placeholder/",
+        "value": "Enter answer here"
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_feedback/correct/",
+        "value": "Correct answer feedback.<br><br>That’s correct. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers."
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers."
+    },
+    {
+        "file": "components",
+        "id": "c-70",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt Open Source project was established by City & Guilds Kineo, Learning Pool and Sponge. At the time of writing, there are a total of seven <a href='https://community.adaptlearning.org/mod/page/view.php?id=51' target='_blank'>official collaborators</a>.<br><br>Component facts: <strong>Text input</strong> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers."
+    },
+    {
+        "file": "components",
+        "id": "c-72",
+        "path": "/title/",
+        "value": "c-72"
+    },
+    {
+        "file": "components",
+        "id": "c-72",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/title/",
+        "value": "Matching"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/displayTitle/",
+        "value": "Matching"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/body/",
+        "value": "Can you identify some of the key facts and figures associated with the Adapt Open Source project?"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/instruction/",
+        "value": "Choose an option from each drop down list and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/placeholder/",
+        "value": "Select an option"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/0/text/",
+        "value": "The Adapt open source project was formed in:"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/0/_options/0/text/",
+        "value": "2008"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/0/_options/1/text/",
+        "value": "2010"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/0/_options/2/text/",
+        "value": "2013"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/0/_options/3/text/",
+        "value": "2015"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/1/text/",
+        "value": "Adapt adheres to the WCAG 2.0 guidelines to level AA, but when were these published?"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/1/_options/0/text/",
+        "value": "2008"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/1/_options/1/text/",
+        "value": "2010"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/1/_options/2/text/",
+        "value": "2013"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/1/_options/3/text/",
+        "value": "2015"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/2/text/",
+        "value": "Which of these languages would benefit from using the recent addition of Right To Left (RTL) language support within Adapt?"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/2/_options/0/text/",
+        "value": "Portuguese"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/2/_options/1/text/",
+        "value": "Hebrew"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/2/_options/2/text/",
+        "value": "Finnish"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_items/2/_options/3/text/",
+        "value": "Esperanto"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_feedback/correct/",
+        "value": "Correct answer feedback.<br><br>Yes, that’s right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "Partially correct answer feedback.<br><br>That’s partially correct. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-75",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "Incorrect answer feedback.<br><br>Sorry, that’s not right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><em>Component facts: The <strong>matching</strong> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-80",
+        "path": "/title/",
+        "value": "Slider"
+    },
+    {
+        "file": "components",
+        "id": "c-80",
+        "path": "/displayTitle/",
+        "value": "Slider"
+    },
+    {
+        "file": "components",
+        "id": "c-80",
+        "path": "/body/",
+        "value": "Working memory is thought to be responsible for our ability to temporarily hold and manipulating information but according to a paper by Miller (1956) what ‘magic number’ describes its capacity?"
+    },
+    {
+        "file": "components",
+        "id": "c-80",
+        "path": "/instruction/",
+        "value": "Drag the slider to make your choice and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-80",
+        "path": "/_feedback/correct/",
+        "value": "Correct answer feedback.<br><br>Yes, that’s right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><em>Component facts: The correct answer for a slider component can be an exact number or a range. In this instance the answer was set as 7 however we could have set the range as 5-9 as the correct option due to the correct answer being seven plus or minus two. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-80",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "Incorrect answer feedback.<br><br>Sorry, that’s not right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><em>Component facts: The correct answer for a slider component can be an exact number or a range. In this instance the answer was set as 7 however we could have set the range as 5-9 as the correct option due to the correct answer being seven plus or minus two. Component is either single or spanned.</em>"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/title/",
+        "value": "To scroll or not to scroll?"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/displayTitle/",
+        "value": "To scroll or not to scroll?"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/body/",
+        "value": "Can you identify a few of the benefits that a vertical scrolling approach offers over the traditional back and next approach?"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/instruction/",
+        "value": "Choose one or more options and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_items/0/text/",
+        "value": "Scrolling is common place on the web and therefore familiar to the learner"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_items/1/text/",
+        "value": "Scrolling reduces the need for unnecessary navigation as pages can be as long (or as short) as they need to be"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_items/2/text/",
+        "value": "Scrolling helps ensure designs are more mobile friendly"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_items/3/text/",
+        "value": "Scrolling means you no longer need to first gain learners attention"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_feedback/correct/",
+        "value": "correct"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-90",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-95",
+        "path": "/title/",
+        "value": "c-95"
+    },
+    {
+        "file": "components",
+        "id": "c-95",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-97",
+        "path": "/title/",
+        "value": "Introduction"
+    },
+    {
+        "file": "components",
+        "id": "c-97",
+        "path": "/body/",
+        "value": "You’ve just encountered the <strong>Trickle</strong> extension. Trickle can be used to control the presentation of content and the manner in which it can be navigated within an Adapt page. In the example just shown the extension was configured to ensure that no content beyond the first question was visible until that block was registered as completed (the question had been attempted). Once the block was completed, a continue button was shown which, once selected, scrolled the next block into view.<br><br>Trickle can be configured in a variety of ways so please read the wiki for all possible configuration options."
+    },
+    {
+        "file": "components",
+        "id": "c-98",
+        "path": "/title/",
+        "value": "c-98"
+    },
+    {
+        "file": "components",
+        "id": "c-98",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/title/",
+        "value": "Do you know your plugins?"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/displayTitle/",
+        "value": "Do you know your plugins?"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/body/",
+        "value": "Which of the following are types of Adapt plugins?"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/instruction/",
+        "value": "Choose one or more options and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_items/0/text/",
+        "value": "Component"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_items/1/text/",
+        "value": "Extension"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_items/2/text/",
+        "value": "Schema"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_items/3/text/",
+        "value": "Block"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_items/4/text/",
+        "value": "App Wrapper"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_feedback/correct/",
+        "value": "correct"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-100",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-105",
+        "path": "/title/",
+        "value": "c-105"
+    },
+    {
+        "file": "components",
+        "id": "c-105",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/title/",
+        "value": "It’s as simple as A, B, C"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/displayTitle/",
+        "value": "It’s as simple as A, B, C"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/body/",
+        "value": "Can you identify the missing word in the following sequence: Article / ..... /Component."
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/instruction/",
+        "value": "Choose an option and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_items/0/text/",
+        "value": "Block"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_items/1/text/",
+        "value": "Bridge"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_items/2/text/",
+        "value": "Brace"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_items/3/text/",
+        "value": "Base"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_items/4/text/",
+        "value": "Bearing"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_feedback/correct/",
+        "value": "correct"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-110",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-115",
+        "path": "/title/",
+        "value": "c-115"
+    },
+    {
+        "file": "components",
+        "id": "c-115",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/title/",
+        "value": "Content objects"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/displayTitle/",
+        "value": "Content objects"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/body/",
+        "value": "What would you be referring to when describing a content object within Adapt?"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/instruction/",
+        "value": "Choose one or more options and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_items/0/text/",
+        "value": "Page"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_items/1/text/",
+        "value": "Menu"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_items/2/text/",
+        "value": "Component"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_items/3/text/",
+        "value": "Course configuration options"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_feedback/correct/",
+        "value": "correct"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-120",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-125",
+        "path": "/title/",
+        "value": "c-95"
+    },
+    {
+        "file": "components",
+        "id": "c-125",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/title/",
+        "value": "Adding titles to icons"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/displayTitle/",
+        "value": "Adding titles to icons"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/body/",
+        "value": "Version 2.0 of the framework makes it possible to add titles to the icons shown on the navigation bar. Do you know what JSON file you would need to edit to add a title to an icon?"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/instruction/",
+        "value": "Choose an option and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_items/0/text/",
+        "value": "course.json"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_items/1/text/",
+        "value": "config.json"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_items/2/text/",
+        "value": "contentObjects.json"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_items/3/text/",
+        "value": "components.json"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_feedback/correct/",
+        "value": "correct"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-130",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-135",
+        "path": "/title/",
+        "value": "c-95"
+    },
+    {
+        "file": "components",
+        "id": "c-135",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/title/",
+        "value": "Control the scroll"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/displayTitle/",
+        "value": "Control the scroll"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/body/",
+        "value": "The <strong>Trickle</strong> extension makes it possible to control how the learner scrolls down the page, but what element of a page is it applied to?"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/instruction/",
+        "value": "Choose an option and select Submit."
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_items/0/text/",
+        "value": "Article"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_items/1/text/",
+        "value": "Block"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_items/2/text/",
+        "value": "Component"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_items/3/text/",
+        "value": "Other extensions"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_feedback/correct/",
+        "value": "correct"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_feedback/_partlyCorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-140",
+        "path": "/_feedback/_incorrect/final/",
+        "value": "final"
+    },
+    {
+        "file": "components",
+        "id": "c-145",
+        "path": "/title/",
+        "value": "c-95"
+    },
+    {
+        "file": "components",
+        "id": "c-145",
+        "path": "/_graphic/alt/",
+        "value": "Placeholder graphic."
+    },
+    {
+        "file": "components",
+        "id": "c-147",
+        "path": "/title/",
+        "value": "c-147"
+    },
+    {
+        "file": "components",
+        "id": "c-147",
+        "path": "/body/",
+        "value": "The new Assessment Results component allows you to specific the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 70% or above, provided four scoring bands each of which has some accompanying feedback. The four score bands were:<br><br><ul><li>0-40% (fail)</li><li>41-69%(fail)</li><li>70-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out."
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/title/",
+        "value": "Results"
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/displayTitle/",
+        "value": "Results"
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/_retry/button/",
+        "value": "Retry Assessment"
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/_completionBody/",
+        "value": "{{{feedback}}}"
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/_bands/0/feedback/",
+        "value": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You didn’t do so well in the Adapt assessment demo, but don’t worry. There’s lots of information about the Adapt basics on our site. We’d also suggest you pay a visit to the forums and ask our ever helpful community to answer any questions that you might have."
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/_bands/1/feedback/",
+        "value": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You already know some of the Adapt basics but please explore our site for more information. Also pay a visit to the forums and ask our ever helpful community to answer any questions that you might have."
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/_bands/2/feedback/",
+        "value": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already pretty knowledgeable about Adapt so, if you haven’t already, please consider sharing your expertise on the Adapt community forums."
+    },
+    {
+        "file": "components",
+        "id": "c-150",
+        "path": "/_bands/3/feedback/",
+        "value": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already a black belt in Adapt! If you haven’t already, please consider sharing your expertise on the Adapt community forums."
+    }
+]
