@@ -2,6 +2,28 @@
     "multilang": {
         "masterLanguage": "en",
         "csvDelimiter": ";",
+        "assets": {
+          "Asset:images": {
+            "path": "/images/",
+            "prefix": false,
+            "suffix": "_[:lang:]"
+          },
+          "Asset:audio": {
+            "path": "/assets/audios/",
+            "prefix": false,
+            "suffix": "_[:lang:]"
+          },
+          "Asset:video": {
+            "path": "/assets/videos/",
+            "prefix": false,
+            "suffix": "_[:lang:]"
+          },
+          "Asset:other": {
+            "path": "/assets/",
+            "prefix": false,
+            "suffix": "_[:lang:]"
+          }
+        },
         "files": {
           "de": [
             "articles_export_de.csv",
