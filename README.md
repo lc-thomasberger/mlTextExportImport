@@ -47,8 +47,12 @@ You should now see a course with content prefixed with "de:"
 - [ ] use npm module to generate csv-files?
 - [ ] test [grunt-xliff module](https://www.npmjs.com/package/grunt-xliff)
 - [ ] add support for assets (images, audios)
-  - add pattern (images/image-1-[:lang:].jpg) eg. images/image-1-en.jpg, images/image-1-de.jpg
-  - check if image for language is in assets folder of master course
-  - copy to target course and relink or use master course version
+  - pattern
+    - add pattern (images/image-1-[:lang:].jpg) eg. images/image-1-en.jpg, images/image-1-de.jpg
+    - check if image for language is in assets folder of master course
+    - copy to target course and relink or use master course version
+  - assets File
+    - like a languageFile just for assets
+    - mapping of key to name of asset
 - [ ] create a new standalone single language course from a languagefile
   - copy master course and replace course/[lang] folder
