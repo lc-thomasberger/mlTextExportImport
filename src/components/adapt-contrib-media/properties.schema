@@ -50,7 +50,8 @@
           "title": "MP4 Link",
           "inputType": "Asset:video",
           "validators": [],
-          "help": "Link to an MP4 video"
+          "help": "Link to an MP4 video",
+          "translatable": "Asset:video"
         },
         "ogv": {
           "type":"string",
@@ -59,7 +60,8 @@
           "title": "OGV Link",
           "inputType": "Asset:video",
           "validators": [],
-          "help": "Link to an OGV video"
+          "help": "Link to an OGV video",
+          "translatable": "Asset:video"
         },
         "mp3": {
           "type":"string",
@@ -68,7 +70,8 @@
           "title": "MP3 Link",
           "inputType": "Asset:audio",
           "validators": [],
-          "help": "Link to an MP3 audio"
+          "help": "Link to an MP3 audio",
+          "translatable": "Asset:audio"
         },
         "source": {
           "type":"string",

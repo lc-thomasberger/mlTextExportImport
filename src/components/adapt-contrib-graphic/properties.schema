@@ -51,7 +51,8 @@
           "default": "",
           "inputType": "Asset:image",
           "validators": ["required"],
-          "help": "The large sized image for desktop devices"
+          "help": "The large sized image for desktop devices",
+          "translatable": "Asset:image"
         },
         "small": {
           "type":"string",
@@ -59,7 +60,8 @@
           "default": "",
           "inputType": "Asset:image",
           "validators": ["required"],
-          "help": "The small sized image for mobile devices"
+          "help": "The small sized image for mobile devices",
+          "translatable": "Asset:image"
         },
         "attribution": {
           "type":"string",

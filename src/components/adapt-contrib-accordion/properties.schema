@@ -78,7 +78,8 @@
                 "default": "",
                 "inputType": "Asset:image",
                 "validators": [],
-                "help": "Optional image which will be rendered with the item body text"
+                "help": "Optional image which will be rendered with the item body text",
+                "translatable": "Asset:image"
               }
             }
           }
