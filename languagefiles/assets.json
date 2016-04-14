@@ -1,0 +1,158 @@
+[
+    {
+        "file": "components",
+        "id": "c-10",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-10",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-25",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/full_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-25",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/full_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-40",
+        "path": "/_media/mp4/",
+        "value": "course/en/video/c-40.mp4"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/0/_graphic/src/",
+        "value": "course/en/images/accordion_full_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/1/_graphic/src/",
+        "value": "course/en/images/accordion_full_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-45",
+        "path": "/_items/2/_graphic/src/",
+        "value": "course/en/images/accordion_full_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-62",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-62",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-72",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-72",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-95",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-95",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-98",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-98",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-105",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-105",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-115",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-115",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-125",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-125",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-135",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-135",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-145",
+        "path": "/_graphic/large/",
+        "value": "course/en/images/single_width.jpg"
+    },
+    {
+        "file": "components",
+        "id": "c-145",
+        "path": "/_graphic/small/",
+        "value": "course/en/images/single_width.jpg"
+    }
+]
