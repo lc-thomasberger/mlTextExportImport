@@ -26,6 +26,7 @@ module.exports = function (grunt) {
     var _schemaData = {};
     var _lookupTables = {};
     var _exportTextData = [];
+    var _exportAssetsData = [];
     
     var modelTypeMap = {
       "config": "config",
@@ -290,7 +291,38 @@ module.exports = function (grunt) {
         return false;
       }
     }
+    
+    // check if lookValue starts with Asset
+    function _lookupValueIsAsset (ltIndex, mt, path) {
+      var v = _lookupTables[ltIndex][mt][path];
+      if (typeof v === "string") {
+        return v.startsWith("Asset:");
+      }
+    }
+    
+    // checks lookUpTable if path exists and if value is Asset
+    function _schouldExportAsset (file, component, path) {
+      
+      if (modelTypeMap[file] === "component") {
         
+        if (_lookupHasKey("models",modelTypeMap[file],path) || _lookupHasKey("components",component,path)) {
+          if (_lookupValueIsAsset("models",modelTypeMap[file], path) || _lookupValueIsAsset("components",component, path)) {
+            return true;
+          }
+        }
+        return false;
+        
+      } else {
+        
+        if (_lookupHasKey("models",modelTypeMap[file],path)) {
+          if (_lookupValueIsAsset("models",modelTypeMap[file], path)) {
+            return true;
+          }
+        }
+        return false;
+      }
+    }
+    
     // checks lookUpTable if path exists and if set to true
     function _schouldExportText (file, component, path) {
       if (modelTypeMap[file] === "component") {
@@ -354,12 +386,25 @@ module.exports = function (grunt) {
       }
     }
     
+    function _collectAssets (data, path, lookupPath, file, id, component) {
+      if (_schouldExportAsset(file, component, lookupPath)) {
+        if (data) {
+          _exportAssetsData.push({
+            file: file,
+            id: id,
+            path: path,
+            value: data
+          });
+        }
+      }
+    }
+    
     function processCourseData () {
       
       ["config","course","contentObjects","articles","blocks","components"].forEach(function (file) {
         
         var data = _courseData[file];
-        var cbs = [_collectTexts];
+        var cbs = [_collectTexts, _collectAssets];
 
         if (Array.isArray(data)) {
           for (var i = 0; i < data.length; i++) {
@@ -394,6 +439,7 @@ module.exports = function (grunt) {
     
     function _exportRaw (filename) {
       grunt.file.write(path.join("languagefiles",filename+".json"), JSON.stringify(_exportTextData," ", 4));
+      grunt.file.write(path.join("languagefiles","assets.json"), JSON.stringify(_exportAssetsData," ", 4));
     }
     
     function formatExport () {
