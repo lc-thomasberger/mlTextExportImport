@@ -182,10 +182,15 @@ module.exports = function (grunt) {
     }
       
     function _copyPropertiesToLocation (location, properties) {
-      // use _.extend for this
       _schemaData.models[location].properties = _.extend(_schemaData.models[location].properties, properties);
     }
     
+    /*
+      ****************************************************
+      traverse propertiesSchema
+      ****************************************************
+    */
+    // function to test if a property should be picked from a schema file
     function _shouldTranslate (obj) {
       // return false if value should be skipped
       // return value that should be picked
@@ -196,6 +201,7 @@ module.exports = function (grunt) {
       }
     }
     
+    // _schemaData traverse function
     function _traverseSchemas (properties, store, path, shouldPickValue) {
     
       var _properties = properties,
@@ -238,6 +244,7 @@ module.exports = function (grunt) {
       }
     }
     
+    // traverse _schemaData
     function createLookUpTables () {
       _lookupTables.models = {};
       _lookupTables.components = {};
@@ -255,8 +262,13 @@ module.exports = function (grunt) {
       });
     }
     
+    /*
+      ****************************************************
+      traverse courseData
+      ****************************************************
+    */
+    
     function _shouldExport (file, component, path) {
-      // debugger;
       var key = path;
       var modelTypeMap = {
           "config": "config",
@@ -317,7 +329,9 @@ module.exports = function (grunt) {
         }
         
       } else {
-
+        // hanlde value (data)
+        // update so that here a cb is called that handles the logic if a value should be exported
+        // remove store, add this to the cb
         if (shouldExport(file, component, lookupPath)) {
           if (data) {
             store.push({
@@ -349,6 +363,12 @@ module.exports = function (grunt) {
       });
 
     }
+    
+    /*
+      ****************************************************
+      export Files
+      ****************************************************
+    */
     
     function _exportCSV (filename) {
       
