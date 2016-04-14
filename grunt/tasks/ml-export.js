@@ -25,7 +25,17 @@ module.exports = function (grunt) {
     var _courseData = {};
     var _schemaData = {};
     var _lookupTables = {};
-    var _exportData = [];
+    var _exportTextData = [];
+    
+    var modelTypeMap = {
+      "config": "config",
+      "course": "course",
+      "contentObjects": "contentobject",
+      "articles": "article",
+      "blocks": "block",
+      "components": "component"
+    };
+
 
     checkConfig();
     getCourseData();
@@ -112,11 +122,11 @@ module.exports = function (grunt) {
           type: "components",
           schemaKey: "components", // key to find in _schemaData
           schemaLabel: "_components" // name used to save in _schemaData.models.course
-        }, {
+        },{
           type: "extensions",
           schemaKey: "extensions",
           schemaLabel: "_extensions"
-        }, {
+        },{
           type: "menu",
           schemaKey: "menu",
           schemaLabel: "_menu"
@@ -149,8 +159,6 @@ module.exports = function (grunt) {
     }
     
     function processPluginLocations () {
-      var locations = ["config","course","contentobject","article","block","component"];
-      
       [
         {
           type: "components",
@@ -182,10 +190,16 @@ module.exports = function (grunt) {
     }
       
     function _copyPropertiesToLocation (location, properties) {
-      // use _.extend for this
       _schemaData.models[location].properties = _.extend(_schemaData.models[location].properties, properties);
     }
     
+    /*
+      ****************************************************
+      create lookupTables
+      traverse propertiesSchema
+      ****************************************************
+    */
+    // function to test if a property should be picked from a schema file
     function _shouldTranslate (obj) {
       // return false if value should be skipped
       // return value that should be picked
@@ -196,6 +210,7 @@ module.exports = function (grunt) {
       }
     }
     
+    // _schemaData traverse function
     function _traverseSchemas (properties, store, path, shouldPickValue) {
     
       var _properties = properties,
@@ -238,6 +253,7 @@ module.exports = function (grunt) {
       }
     }
     
+    // traverse _schemaData
     function createLookUpTables () {
       _lookupTables.models = {};
       _lookupTables.components = {};
@@ -255,22 +271,32 @@ module.exports = function (grunt) {
       });
     }
     
-    function _shouldExport (file, component, path) {
-      // debugger;
-      var key = path;
-      var modelTypeMap = {
-          "config": "config",
-          "course": "course",
-          "contentObjects": "contentobject",
-          "articles": "article",
-          "blocks": "block",
-          "components": "component"
-        };
-      
+    /*
+      ****************************************************
+      traverse courseData
+      ****************************************************
+    */
+    
+    // checks if _lookupTables has path
+    function _lookupHasKey (ltIndex, mt, path) {
+      return _lookupTables[ltIndex][mt].hasOwnProperty(path);
+    }
+
+    // checks if LookupValue is true
+    function _lookupValueIsTrue (ltIndex, mt, path) {
+      if (_lookupTables[ltIndex][mt][path] === true) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+        
+    // checks lookUpTable if path exists and if set to true
+    function _schouldExportText (file, component, path) {
       if (modelTypeMap[file] === "component") {
         
-        if (_hasKey("models",modelTypeMap[file],key) || _hasKey("components",component,key)) {
-          if (_hasValue("models",modelTypeMap[file], key) || _hasValue("components",component, key)) {
+        if (_lookupHasKey("models",modelTypeMap[file],path) || _lookupHasKey("components",component,path)) {
+          if (_lookupValueIsTrue("models",modelTypeMap[file], path) || _lookupValueIsTrue("components",component, path)) {
             return true;
           }
         }
@@ -278,25 +304,16 @@ module.exports = function (grunt) {
         
       } else {
         
-        if (_hasKey("models",modelTypeMap[file],key)) {
-          if (_hasValue("models",modelTypeMap[file], key)) {
+        if (_lookupHasKey("models",modelTypeMap[file],path)) {
+          if (_lookupValueIsTrue("models",modelTypeMap[file], path)) {
             return true;
           }
         }
         return false;
       }
-      
-      function _hasKey (ltIndex, mt, key) {
-        return _lookupTables[ltIndex][mt].hasOwnProperty(key);
-      }
-      
-      function _hasValue (ltIndex, mt, key) {
-        return _lookupTables[ltIndex][mt][key];
-      }
     }
     
-    
-    function _traverseCourse(data, store, level, path, lookupPath, id, file, component, shouldExport) {
+    function _traverseCourse(data, level, path, lookupPath, id, file, component, cbs) {
 
       if (level === 0) {
         // at the root
@@ -307,28 +324,33 @@ module.exports = function (grunt) {
       
       if (Array.isArray(data)) {
         for (var i = 0; i < data.length; i++) {
-          _traverseCourse(data[i], store, level+=1, path+i+"/", lookupPath, id, file, component, shouldExport);
+          _traverseCourse(data[i], level+=1, path+i+"/", lookupPath, id, file, component, cbs);
         }
       
       } else if (typeof data === "object") {
         
         for (var attribute in data) {
-          _traverseCourse(data[attribute], store, level+=1, path+attribute+"/", lookupPath+attribute+"/", id, file, component, shouldExport);
+          _traverseCourse(data[attribute], level+=1, path+attribute+"/", lookupPath+attribute+"/", id, file, component, cbs);
         }
         
       } else {
-
-        if (shouldExport(file, component, lookupPath)) {
-          if (data) {
-            store.push({
-              file: file,
-              id: id,
-              path: path,
-              value: data
-            });
-          }
+        // hanlde value (data)
+        for (var j = 0; j < cbs.length; j++) {
+          cbs[j].call(this, data, path, lookupPath, file, id, component);
         }
-        
+      }
+    }
+    
+    function _collectTexts (data, path, lookupPath, file, id, component) {
+      if (_schouldExportText(file, component, lookupPath)) {
+        if (data) {
+          _exportTextData.push({
+            file: file,
+            id: id,
+            path: path,
+            value: data
+          });
+        }
       }
     }
     
@@ -337,22 +359,29 @@ module.exports = function (grunt) {
       ["config","course","contentObjects","articles","blocks","components"].forEach(function (file) {
         
         var data = _courseData[file];
+        var cbs = [_collectTexts];
 
         if (Array.isArray(data)) {
           for (var i = 0; i < data.length; i++) {
-            _traverseCourse(data[i], _exportData, 0, "/", "/", null, file, null, _shouldExport);
+            _traverseCourse(data[i], 0, "/", "/", null, file, null, cbs);
           }
         } else {
-          _traverseCourse(data, _exportData, 0, "/", "/", null, file, null, _shouldExport);
+          _traverseCourse(data, 0, "/", "/", null, file, null, cbs);
         }
         
       });
 
     }
     
+    /*
+      ****************************************************
+      export Files
+      ****************************************************
+    */
+    
     function _exportCSV (filename) {
       
-      var files = _.groupBy(_exportData, "file");
+      var files = _.groupBy(_exportTextData, "file");
       
       for (var file in files) {
         var lines = [];
@@ -364,7 +393,7 @@ module.exports = function (grunt) {
     }
     
     function _exportRaw (filename) {
-      grunt.file.write(path.join("languagefiles",filename+".json"), JSON.stringify(_exportData," ", 4));
+      grunt.file.write(path.join("languagefiles",filename+".json"), JSON.stringify(_exportTextData," ", 4));
     }
     
     function formatExport () {
@@ -467,7 +496,7 @@ module.exports = function (grunt) {
     }
   }
 
-  _exportData = [
+  _exportTextData = [
     {
       "file": "course",
       "id": "course",
