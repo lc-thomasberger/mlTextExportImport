@@ -291,7 +291,12 @@ module.exports = function (grunt) {
       }
       
       function _hasValue (ltIndex, mt, key) {
-        return _lookupTables[ltIndex][mt][key];
+        var v = _lookupTables[ltIndex][mt][key];
+        if (typeof v === "string") {
+          return v.startsWith("Asset:");
+        } else {
+          return false;
+        }
       }
     }
     
