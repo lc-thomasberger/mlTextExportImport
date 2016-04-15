@@ -1,7 +1,7 @@
 {
     "multilang": {
         "masterLanguage": "en",
-        "csvDelimiter": ";",
+        "csvDelimiter": ",",
         "files": {
           "de": [
             "articles_export_de.csv",
