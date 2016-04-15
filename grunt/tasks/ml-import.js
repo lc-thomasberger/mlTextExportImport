@@ -2,6 +2,7 @@ var util = require("util");
 var path = require("path");
 var fs = require("fs");
 var _ = require("underscore");
+var csv = require("csv");
 
 /*
   arguments
@@ -91,8 +92,12 @@ module.exports = function (grunt) {
         content += csvEol;
       });
       
+      var options = {
+        delimiter: csvDel
+      };
+      
       // line: file/id/*paht;value \n
-      var lines = content.split(csvEol);
+      var lines = csv.parse(content, options);
       
       for (var i = 0; i < lines.length; i++) {
         var line = lines[i].split(csvDel);

@@ -1,21 +1,21 @@
-contentObjects/co-05/title/;Presentation Components
-contentObjects/co-05/displayTitle/;Presentation Components
-contentObjects/co-05/pageBody/;<strong>Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.</strong>
-contentObjects/co-05/body/;Find out what presentation components are available within the core bundle and how you might consider using them within your courses. 
-contentObjects/co-05/_graphic/alt/;Placeholder graphic.
-contentObjects/co-05/linkText/;View
-contentObjects/co-05/duration/;2 mins
-contentObjects/co-10/title/;Question Components
-contentObjects/co-10/displayTitle/;Question Components
-contentObjects/co-10/pageBody/;We can’t easily measure whether learners are meeting the intended course objectives, provide guidance and feedback if they’re not or give them opportunities to practice and rehearse in a ‘safe environment’ without a range of question components.<br><br>Discover what question components are available within the framework, along with some tips on how to use them.<br><br><strong>Scroll down to see what question components are available as part of the Version 2.0 core bundle.</strong>
-contentObjects/co-10/body/;Discover what question components are available within the framework, along with some tips on how to use them.
-contentObjects/co-10/_graphic/alt/;Placeholder graphic.
-contentObjects/co-10/linkText/;View
-contentObjects/co-10/duration/;2 mins
-contentObjects/co-15/title/;Adapt Assessment
-contentObjects/co-15/displayTitle/;Adapt Assessment
-contentObjects/co-15/pageBody/;We’ve put together a very short quiz to demonstrate the new assessment functionality. In this simple example there are two banks that each contain three questions with two being taken from each bank at random. The order in which the questions are presented is then also randomised, as is the order of each questions options.<br><br><strong>Think you can get a perfect score? Scroll down to attempt the first question.</strong>
-contentObjects/co-15/body/;Find out more about the new assessment functionality in V2.0, including randomised banks and an improved results feature.
-contentObjects/co-15/_graphic/alt/;Placeholder graphic.
-contentObjects/co-15/linkText/;View
-contentObjects/co-15/duration/;2 mins
+contentObjects/co-05/title/,Presentation Components
+contentObjects/co-05/displayTitle/,Presentation Components
+contentObjects/co-05/pageBody/,<strong>Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.</strong>
+contentObjects/co-05/body/,Find out what presentation components are available within the core bundle and how you might consider using them within your courses. 
+contentObjects/co-05/_graphic/alt/,Placeholder graphic.
+contentObjects/co-05/linkText/,View
+contentObjects/co-05/duration/,2 mins
+contentObjects/co-10/title/,Question Components
+contentObjects/co-10/displayTitle/,Question Components
+contentObjects/co-10/pageBody/,"We can’t easily measure whether learners are meeting the intended course objectives, provide guidance and feedback if they’re not or give them opportunities to practice and rehearse in a ‘safe environment’ without a range of question components.<br><br>Discover what question components are available within the framework, along with some tips on how to use them.<br><br><strong>Scroll down to see what question components are available as part of the Version 2.0 core bundle.</strong>"
+contentObjects/co-10/body/,"Discover what question components are available within the framework, along with some tips on how to use them."
+contentObjects/co-10/_graphic/alt/,Placeholder graphic.
+contentObjects/co-10/linkText/,View
+contentObjects/co-10/duration/,2 mins
+contentObjects/co-15/title/,Adapt Assessment
+contentObjects/co-15/displayTitle/,Adapt Assessment
+contentObjects/co-15/pageBody/,"We’ve put together a very short quiz to demonstrate the new assessment functionality. In this simple example there are two banks that each contain three questions with two being taken from each bank at random. The order in which the questions are presented is then also randomised, as is the order of each questions options.<br><br><strong>Think you can get a perfect score? Scroll down to attempt the first question.</strong>"
+contentObjects/co-15/body/,"Find out more about the new assessment functionality in V2.0, including randomised banks and an improved results feature."
+contentObjects/co-15/_graphic/alt/,Placeholder graphic.
+contentObjects/co-15/linkText/,View
+contentObjects/co-15/duration/,2 mins
