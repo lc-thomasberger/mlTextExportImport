@@ -2,6 +2,7 @@ var util = require("util");
 var path = require("path");
 var fs = require("fs");
 var _ = require("underscore");
+var csv = require('csv');
 
 /*
   todo:
@@ -17,11 +18,12 @@ module.exports = function (grunt) {
 
   grunt.registerTask("ml-export", "Export Text ready for translation", function () {
     
+    var next = this.async();
+    
     var srcPath = grunt.config("sourcedir");
     var lang = grunt.option("masterLang") || "en";
     var format = grunt.option("format") || "raw";
-    var csvDel = grunt.option("csvDelimiter") || ";";
-    var csvEol = "\n";
+    var csvDel = grunt.option("csvDelimiter") || ",";
     var _courseData = {};
     var _schemaData = {};
     var _lookupTables = {};
@@ -380,20 +382,50 @@ module.exports = function (grunt) {
     */
     
     function _exportCSV (filename) {
-      
-      var files = _.groupBy(_exportTextData, "file");
-      
-      for (var file in files) {
-        var lines = [];
-        for (var i = 0; i < files[file].length; i++) {
-          lines.push(file+"/"+files[file][i].id+files[file][i].path+csvDel+files[file][i].value);
+      var inputs = _exportTextData.reduce(function (prev, current) {
+        if (!prev.hasOwnProperty(current.file)) {
+          prev[current.file] = [];
         }
-        grunt.file.write(path.join("languagefiles",file+"_"+filename+".csv"), lines.join(csvEol));
+      
+        prev[current.file].push([current.file+'/'+current.id+current.path, current.value]);
+        return prev;
+      }, {});
+      
+      var files = Object.keys(inputs);
+      var counter = 0;
+      var options = {
+        delimiter: csvDel
+      };
+      
+      var courseCsv = fs.createWriteStream(path.join("languagefiles","course_"+filename+".csv"));
+      var coCsv = fs.createWriteStream(path.join("languagefiles","contentObjects_"+filename+".csv"));
+      var aCsv = fs.createWriteStream(path.join("languagefiles","articles_"+filename+".csv"));
+      var bCsv = fs.createWriteStream(path.join("languagefiles","blocks_"+filename+".csv"));
+      var cCsv = fs.createWriteStream(path.join("languagefiles","components_"+filename+".csv"));
+      
+      courseCsv.once("finish", _onFinish);
+      coCsv.once("finish", _onFinish);
+      aCsv.once("finish", _onFinish);
+      bCsv.once("finish", _onFinish);
+      cCsv.once("finish", _onFinish);
+      
+      csv.stringify(inputs.course, options).pipe(courseCsv);
+      csv.stringify(inputs.contentObjects, options).pipe(coCsv);
+      csv.stringify(inputs.articles, options).pipe(aCsv);
+      csv.stringify(inputs.blocks, options).pipe(bCsv);
+      csv.stringify(inputs.components, options).pipe(cCsv);
+      
+      function _onFinish () {
+        counter++;
+        if (counter == files.length) {
+          next();
+        }
       }
     }
     
     function _exportRaw (filename) {
       grunt.file.write(path.join("languagefiles",filename+".json"), JSON.stringify(_exportTextData," ", 4));
+      next();
     }
     
     function formatExport () {
