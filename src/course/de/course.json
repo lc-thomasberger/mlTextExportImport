@@ -1,39 +1,39 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "de: Adapt Version 2.0 demonstration\r",
-    "displayTitle": "de: Adapt Version 2.0 demonstration\r",
+    "title": "de: Adapt Version 2.0 demonstration",
+    "displayTitle": "de: Adapt Version 2.0 demonstration",
     "description": "A sample course demonstrating the capabilities of the Adapt Version 2.0",
-    "body": "de: Welcome to the demonstration build for Version 2.0 of the Adapt framework.<br><br>We’ve added some major new items of functionality to Adapt for this release, most notably accessibility to WAI level AA, Right to Left language support and greatly improved assessments. If you’d like to find out more about this, along with the the other improvements we’ve made then please read the release notes (Link to follow for demo).               \r",
+    "body": "de: Welcome to the demonstration build for Version 2.0 of the Adapt framework.<br><br>We’ve added some major new items of functionality to Adapt for this release, most notably accessibility to WAI level AA, Right to Left language support and greatly improved assessments. If you’d like to find out more about this, along with the the other improvements we’ve made then please read the release notes (Link to follow for demo).               ",
     "_buttons": {
         "_submit": {
-            "buttonText": "de: Submit\r",
-            "ariaLabel": "de: Submit your answer by clicking here.\r"
+            "buttonText": "de: Submit",
+            "ariaLabel": "de: Submit your answer by clicking here."
         },
         "_reset": {
-            "buttonText": "de: Reset\r",
-            "ariaLabel": "de: Reset the question by clicking here.\r"
+            "buttonText": "de: Reset",
+            "ariaLabel": "de: Reset the question by clicking here."
         },
         "_showCorrectAnswer": {
-            "buttonText": "de: Correct answer\r",
-            "ariaLabel": "de: Show the correct answer by clicking here.\r"
+            "buttonText": "de: Correct answer",
+            "ariaLabel": "de: Show the correct answer by clicking here."
         },
         "_hideCorrectAnswer": {
-            "buttonText": "de: My answer\r",
-            "ariaLabel": "de: Show the answer you gave by clicking here.\r"
+            "buttonText": "de: My answer",
+            "ariaLabel": "de: Show the answer you gave by clicking here."
         },
         "_showFeedback": {
-            "buttonText": "de: Show feedback\r",
-            "ariaLabel": "de: View the question feedback again by clicking here.\r"
+            "buttonText": "de: Show feedback",
+            "ariaLabel": "de: View the question feedback again by clicking here."
         },
-        "remainingAttemptsText": "de: attempts remaining\r",
-        "remainingAttemptText": "de: final attempt\r",
-        "disabledAriaLabel": "de: This button is disabled at the moment.\r"
+        "remainingAttemptsText": "de: attempts remaining",
+        "remainingAttemptText": "de: final attempt",
+        "disabledAriaLabel": "de: This button is disabled at the moment."
     },
     "_globals": {
         "_components": {
             "_accordion": {
-                "ariaRegion": "de: This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.\r",
+                "ariaRegion": "de: This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.",
                 "instruction": ""
             },
             "_blank": {
@@ -41,7 +41,7 @@
                 "instruction": ""
             },
             "_gmcq": {
-                "ariaRegion": "de: This component is a graphical multiple choice question. Once you have selected an option select the submit button below.\r",
+                "ariaRegion": "de: This component is a graphical multiple choice question. Once you have selected an option select the submit button below.",
                 "instruction": ""
             },
             "_graphic": {
@@ -53,23 +53,23 @@
                 "instruction": ""
             },
             "_matching": {
-                "ariaRegion": "de: This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button.\r",
+                "ariaRegion": "de: This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button.",
                 "instruction": ""
             },
             "_mcq": {
-                "ariaRegion": "de: This component is a multiple choice question. Once you have selected an option select the submit button below\r",
+                "ariaRegion": "de: This component is a multiple choice question. Once you have selected an option select the submit button below",
                 "instruction": ""
             },
             "_media": {
-                "ariaRegion": "de: This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.\r",
+                "ariaRegion": "de: This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.",
                 "instruction": ""
             },
             "_narrative": {
-                "ariaRegion": "de: This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.\r",
+                "ariaRegion": "de: This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.",
                 "instruction": ""
             },
             "_slider": {
-                "ariaRegion": "de: This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below.\r",
+                "ariaRegion": "de: This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below.",
                 "instruction": ""
             },
             "_text": {
@@ -83,11 +83,11 @@
         },
         "_extensions": {
             "_pageLevelProgress": {
-                "pageLevelProgress": "de: Page sections\r",
-                "pageLevelProgressEnd": "de: You have reached the end of the list of page sections.\r",
-                "pageLevelProgressIndicatorBar": "de: Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed \r",
-                "pageLevelProgressMenuBar": "de: You have completed \r",
-                "optionalContent": "de: Optional Content\r"
+                "pageLevelProgress": "de: Page sections",
+                "pageLevelProgressEnd": "de: You have reached the end of the list of page sections.",
+                "pageLevelProgressIndicatorBar": "de: Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+                "pageLevelProgressMenuBar": "de: You have completed",
+                "optionalContent": "de: Optional Content"
             }
         },
         "_menu": {
@@ -98,40 +98,40 @@
             }
         },
         "_accessibility": {
-            "_accessibilityToggleTextOn": "de: Turn accessibility on?\r",
-            "_accessibilityToggleTextOff": "de: Turn accessibility off?\r",
+            "_accessibilityToggleTextOn": "de: Turn accessibility on?",
+            "_accessibilityToggleTextOff": "de: Turn accessibility off?",
             "_accessibilityInstructions": {
-                "touch": "de: Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.\r",
-                "notouch": "de: Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.\r",
-                "ipad": "de: Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select.\r"
+                "touch": "de: Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "de: Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "de: Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
             },
             "_ariaLabels": {
-                "navigation": "de: Course navigation bar\r",
-                "menuLoaded": "de: Menu Loaded.\r",
-                "menu": "de: Menu\r",
-                "page": "de: Page\r",
-                "pageLoaded": "de: Page Loaded.\r",
+                "navigation": "de: Course navigation bar",
+                "menuLoaded": "de: Menu Loaded.",
+                "menu": "de: Menu",
+                "page": "de: Page",
+                "pageLoaded": "de: Page Loaded.",
                 "pageEnd": "You have reached the end of the page.",
-                "previous": "de: Back\r",
-                "navigationBack": "de: Navigate back\r",
-                "navigationDrawer": "de: Open course resources.\r",
+                "previous": "de: Back",
+                "navigationBack": "de: Navigate back",
+                "navigationDrawer": "de: Open course resources.",
                 "close": "Close",
                 "closeDrawer": "Close Drawer",
-                "closeResources": "de: Close resources\r",
+                "closeResources": "de: Close resources",
                 "resourcesEnd": "You have reached the end of the list of resources.",
-                "drawerBack": "de: Back to drawer\r",
-                "drawer": "de: Top of side drawer\r",
-                "closePopup": "de: Close popup\r",
-                "next": "de: Next\r",
-                "done": "de: Done\r",
-                "complete": "de: Completed\r",
-                "incomplete": "de: Incomplete\r",
+                "drawerBack": "de: Back to drawer",
+                "drawer": "de: Top of side drawer",
+                "closePopup": "de: Close popup",
+                "next": "de: Next",
+                "done": "de: Done",
+                "complete": "de: Completed",
+                "incomplete": "de: Incomplete",
                 "incorrect": "Incorrect",
-                "correct": "de: Correct\r",
-                "locked": "de: Locked\r",
-                "accessibilityToggleButton": "de: By selecting this button you can set whether accessibility is turned on or off\r",
-                "feedbackPopUp": "de: Popup opened.\r",
-                "menuBack": "de: Back to menu\r",
+                "correct": "de: Correct",
+                "locked": "de: Locked",
+                "accessibilityToggleButton": "de: By selecting this button you can set whether accessibility is turned on or off",
+                "feedbackPopUp": "de: Popup opened.",
+                "menuBack": "de: Back to menu",
                 "visited": "Visited"
             }
         }
@@ -143,38 +143,38 @@
     },
     "_resources": {
         "_isEnabled": true,
-        "title": "de: Resources\r",
-        "description": "de: View resources for this course by clicking here.\r",
+        "title": "de: Resources",
+        "description": "de: View resources for this course by clicking here.",
         "_filterButtons": {
-            "all": "de: All\r",
-            "document": "de: Document\r",
-            "media": "de: Media\r",
-            "link": "de: Link\r"
+            "all": "de: All",
+            "document": "de: Document",
+            "media": "de: Media",
+            "link": "de: Link"
         },
         "_filterAria": {
-            "allAria": "de: View all resources\r",
-            "documentAria": "de: View document resources\r",
-            "mediaAria": "de: View media resources\r",
-            "linkAria": "de: View resource links\r"
+            "allAria": "de: View all resources",
+            "documentAria": "de: View document resources",
+            "mediaAria": "de: View media resources",
+            "linkAria": "de: View resource links"
         },
         "itemAriaExternal": "This content will open in a new window",
         "_resourcesItems": [
             {
                 "_type": "document",
-                "title": "de: Vanilla Theme Swatch\r",
-                "description": "de: See the swatch for the default vanilla by clicking here.\r",
+                "title": "de: Vanilla Theme Swatch",
+                "description": "de: See the swatch for the default vanilla by clicking here.",
                 "_link": "course/en/images/vanilla-swatch.jpg"
             },
             {
                 "_type": "media",
-                "title": "de: Adapt Learning YouTube Channel\r",
-                "description": "de: Fancy catching up on some Adapt material? Click here.\r",
+                "title": "de: Adapt Learning YouTube Channel",
+                "description": "de: Fancy catching up on some Adapt material? Click here.",
                 "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
             },
             {
                 "_type": "link",
-                "title": "de: Community Site\r",
-                "description": "de: View our community site by clicking here.\r",
+                "title": "de: Community Site",
+                "description": "de: View our community site by clicking here.",
                 "_link": "https://community.adaptlearning.org"
             }
         ]
@@ -187,10 +187,10 @@
     "_bookmarking": {
         "_isEnabled": true,
         "_level": "block",
-        "title": "de: Bookmarking\r",
-        "body": "de: Would you like to continue where you left off?\r",
+        "title": "de: Bookmarking",
+        "body": "de: Would you like to continue where you left off?",
         "_buttons": {
-            "yes": "de: Yes\r",
+            "yes": "de: Yes",
             "no": "de: No"
         }
     }
