@@ -11,6 +11,10 @@ module.exports = function (grunt) {
     require("./exportFile.js")(grunt);
     require("./extractCourseData.js")(grunt);
     require("./parseSchema.js")(grunt);
+    require("./loadMasterCourse.js")(grunt);
+    require("./loadLanguageFiles.js")(grunt);
+    require("./updateCourseData.js")(grunt);
+    require("./saveCourseData.js")(grunt);
   };
   
   exports.modelTypeMap = {
