@@ -1,7 +1,7 @@
 # Multi Language Text Export / Import
 
 ## Tasks
-`grunt ml-export`
+`grunt translate:export`
 
 `--format="[csv|raw]"`
 Format of exported Language Files
@@ -9,7 +9,7 @@ Format of exported Language Files
 `--csvDelimiter=";"`
 Delimiter used to create CSV Tables
 
-`grunt ml-import`
+`grunt translate:import`
 
 `--files"file1.csv,file2.csv"`
 Language Files seperated by a comma
@@ -24,13 +24,13 @@ Language of the new Course
 Delimiter used to read CSV Tables
 
 ### Export
-`grunt ml-export --format="csv"`
+`grunt translate:export --format="csv"`
 
 ### translate Course
 Translate Language Files stored in `/languagefiles/*.csv`
 
 ### Import and create a german copy of the english course
-`grunt ml-import --targetLang="de" --files="articles_export_de.csv,blocks_export_de.csv,components_export_de.csv,contentObjects_export_de.csv,course_export_de.csv"`
+`grunt translate:import --targetLang="de" --files="articles_export_de.csv,blocks_export_de.csv,components_export_de.csv,contentObjects_export_de.csv,course_export_de.csv"`
 
 ### View the "german" Course
 `grunt server`
@@ -44,7 +44,7 @@ You should now see a course with content prefixed with "de:"
   - safe: break if course already exists
   - replace: only replace text and [assets]
   - copy: creae a new copy of the master course and replace text and assets
-- [ ] use npm module to generate csv-files?
+- [x] use npm module to generate csv-files?
 - [ ] test [grunt-xliff module](https://www.npmjs.com/package/grunt-xliff)
 - [ ] add support for assets (images, audios)
   - pattern
