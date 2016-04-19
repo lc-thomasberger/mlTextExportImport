@@ -1,6 +1,7 @@
 var path = require("path");
 var fs = require("fs");
 var csv = require("csv");
+var async = require("async");
 
 module.exports = function (grunt) {
   
@@ -38,35 +39,29 @@ module.exports = function (grunt) {
         return prev;
       }, {});
       
-      var files = Object.keys(inputs);
-      var counter = 0;
       var options = {
         delimiter: grunt.config("translate.csvDelimiter")
       };
       
-      var courseCsv = fs.createWriteStream(path.join("languagefiles","course_"+filename+".csv"));
-      var coCsv = fs.createWriteStream(path.join("languagefiles","contentObjects_"+filename+".csv"));
-      var aCsv = fs.createWriteStream(path.join("languagefiles","articles_"+filename+".csv"));
-      var bCsv = fs.createWriteStream(path.join("languagefiles","blocks_"+filename+".csv"));
-      var cCsv = fs.createWriteStream(path.join("languagefiles","components_"+filename+".csv"));
+      async.each(["course","contentObjects","articles","blocks","components"], _saveFile, _cb);
       
-      courseCsv.once("finish", _onFinish);
-      coCsv.once("finish", _onFinish);
-      aCsv.once("finish", _onFinish);
-      bCsv.once("finish", _onFinish);
-      cCsv.once("finish", _onFinish);
+      function _saveFile (name, _cb) {
+        csv.stringify(inputs[name], options, function (error, output) {
+          if (error) {
+            _cb(error);
+          } else {
+            var src = path.join("languagefiles",name+"_"+filename+".csv");
+            grunt.file.write(src, output);
+            _cb();
+          }
+        });
+      }
       
-      csv.stringify(inputs.course, options).pipe(courseCsv);
-      csv.stringify(inputs.contentObjects, options).pipe(coCsv);
-      csv.stringify(inputs.articles, options).pipe(aCsv);
-      csv.stringify(inputs.blocks, options).pipe(bCsv);
-      csv.stringify(inputs.components, options).pipe(cCsv);
-      
-      function _onFinish () {
-        counter++;
-        if (counter == files.length) {
-          next();
+      function _cb (error) {
+        if (error) {
+          throw grunt.util.error("Error saving CSV files.");
         }
+        next();
       }
     }
     
